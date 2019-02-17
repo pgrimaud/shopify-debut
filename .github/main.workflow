@@ -9,6 +9,6 @@ action "Shopify" {
     "SHOPIFY_PASSWORD",
     "SHOPIFY_STORE_URL",
     "SHOPIFY_THEME_ID",
-    "THEME_PATH"
+    "THEME_PATH",
   ]
 }
