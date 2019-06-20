@@ -10,5 +10,6 @@ action "Shopify" {
     "SHOPIFY_STORE_URL",
     "SHOPIFY_THEME_ID",
     "THEME_PATH",
+    "TEST"
   ]
 }
