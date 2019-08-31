@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/shopify@master
+    - uses: actions/shopify-theme@v1
