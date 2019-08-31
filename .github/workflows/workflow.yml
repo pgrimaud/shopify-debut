@@ -6,6 +6,7 @@ jobs:
     name: Shopify	
     runs-on: ubuntu-latest	
     steps:	
+      - uses: actions/checkout@v1
       - name: Shopify	
         uses: pgrimaud/action-shopify@master
         env:	
