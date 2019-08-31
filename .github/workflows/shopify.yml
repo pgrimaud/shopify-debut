@@ -14,6 +14,6 @@ jobs:
           SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_STORE_URL }}
           SHOPIFY_THEME_ID: ${{ secrets.SHOPIFY_THEME_ID }}
           THEME_PATH: ${{ secrets.THEME_PATH }}
-        with: 
-          args: --ignored-file=\"snippets/*\"
+        with:
+          args: --ignored-file=*
 
