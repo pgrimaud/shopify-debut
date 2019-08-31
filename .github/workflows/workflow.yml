@@ -6,6 +6,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/shopify-theme@v1
+    - uses: pgrimaud/action-shopify@1.0.0
