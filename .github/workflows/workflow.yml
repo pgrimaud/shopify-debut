@@ -1,0 +1,18 @@
+name: Deploy Shopify Theme	
+
+on: [push]	
+jobs:	
+  shopify:	
+    name: Shopify	
+    runs-on: ubuntu-latest	
+    steps:	
+      - name: Shopify	
+        uses: pgrimaud/action-shopify@1.0.0	
+        env:	
+          SHOPIFY_PASSWORD: ${{ secrets.SHOPIFY_PASSWORD }}	
+          SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_STORE_URL }}	
+          SHOPIFY_THEME_ID: ${{ secrets.SHOPIFY_THEME_ID }}	
+          THEME_PATH: ${{ secrets.THEME_PATH }}
+        #with:
+          #args: 
+        
