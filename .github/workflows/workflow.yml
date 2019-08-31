@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest	
     steps:	
       - name: Shopify	
-        uses: pgrimaud/action-shopify@1.0.0	
+        uses: pgrimaud/action-shopify@master
         env:	
           SHOPIFY_PASSWORD: ${{ secrets.SHOPIFY_PASSWORD }}	
           SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_STORE_URL }}	
